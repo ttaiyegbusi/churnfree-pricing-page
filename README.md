@@ -8,7 +8,8 @@ churnfree-pricing/
 ├── index.html        # Page markup
 ├── css/styles.css    # All styles + @font-face declarations
 ├── js/script.js      # FAQ accordion behavior
-└── fonts/            # Poppins (headings) + Manrope (body) TTFs
+├── fonts/            # Poppins (headings) + Manrope (body) TTFs
+└── img/              # logo + placeholder avatar photos
 ```
 
 ## Run it
