@@ -77,15 +77,15 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);
 .pricing{position:relative;padding:46px 0 30px}
 .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1040px;margin:40px auto 0;
   align-items:stretch}
-.tier{padding:44px 44px 48px;position:relative;background:#fff;border:1px solid var(--line);
+.tier{padding:44px 24px 48px;position:relative;background:#fff;border:1px solid var(--line);
   border-radius:var(--radius-lg);display:flex;flex-direction:column}
 .tier.popular{border:1.5px solid #FFB0C0;border-radius:var(--radius-lg)}
-.tier-name{font-family:'Manrope';font-weight:600;font-size:16px;color:var(--ink2);margin-bottom:18px;text-align:center}
-.price{display:flex;align-items:baseline;gap:8px;margin-bottom:24px;justify-content:center}
+.tier-name{font-family:'Manrope';font-weight:600;font-size:16px;color:var(--ink2);margin-bottom:18px;text-align:left}
+.price{display:flex;align-items:baseline;gap:8px;margin-bottom:24px;justify-content:flex-start}
 .price b{font-family:'Poppins';font-weight:800;font-size:40px;letter-spacing:-.03em}
 .price span{color:var(--muted2);font-size:15px;font-weight:600}
 .tier .cta{margin-bottom:26px;padding-bottom:26px;border-bottom:1.5px dashed var(--line)}
-.tier-sub{font-size:15px;font-weight:700;color:var(--ink2);margin-bottom:22px;text-align:center}
+.tier-sub{font-size:15px;font-weight:700;color:var(--ink2);margin-bottom:22px;text-align:left}
 .feat{list-style:none;display:flex;flex-direction:column;gap:20px}
 .feat li{display:flex;align-items:center;gap:14px;font-size:15px;color:var(--muted);font-weight:500;white-space:nowrap}
 .ck{width:20px;height:20px;flex:none;background:var(--check);color:#fff;border-radius:50%;
