@@ -31,4 +31,3 @@ then visit http://localhost:8000
 ## Notes
 - The blog illustrations are inline SVG (no image files needed).
 - Colors are defined as CSS variables in `:root` at the top of `styles.css`.
-# churnfree-pricing-page
